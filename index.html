@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="script.js"></script>
+	
+	<title>Quadrado Mágico - Jogo</title>
+</head>
+<body>
+	<div id="container">
+		<h1>Quadrado Mágico</h1>
+		
+		<form action="" method="post" oninput="autocheck();">
+			<fieldset>
+				<table>
+					<tr>
+						<td><input type="text" name="entrada" placeholder="1" /></td>
+						<td><input type="text" name="entrada" placeholder="2" /></td>
+						<td><input type="text" name="entrada" placeholder="3" /></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="entrada" placeholder="4" /></td>
+						<td><input type="text" name="entrada" placeholder="5" /></td>
+						<td><input type="text" name="entrada" placeholder="6" /></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="entrada" placeholder="7" /></td>
+						<td><input type="text" name="entrada" placeholder="8" /></td>
+						<td><input type="text" name="entrada" placeholder="9" /></td>
+					</tr>
+				</table><br />
+				
+				<input id="btn_finalizar" type="button" name="btn_finalizar" value="Finalizar" onclick="finalizar();" />	
+				<p>Este é o quadrado mágico. Os números digitáveis são de 1 até 9. A soma de todas as direções (vertical, horizontal e diagonal) devem ser iguais a 15. Boa sorte!</p>
+				
+			</fieldset>
+			
+		</form>
+	</div>
+</body>
+</html>

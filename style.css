@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+body{
+	background: #ddd;
+}
+
+	
+#container{
+	width: 700px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+	box-shadow: 4px 4px #ccc;
+}
+
+#container h1{
+	text-align: center;
+	width: 350px;
+	margin:0 auto 10px auto;
+	border-bottom: 1px solid #ccc;
+}
+
+#container form fieldset{
+	box-shadow: 4px 4px #ccc;
+	margin-bottom: 10px;
+}
+
+#container form fieldset table{
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#container form fieldset table tr td input{
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	font-size: 24px;
+	background: #ddd;
+	border: 1px solid #000;
+	transition: .5s;
+}
+
+#container form table tr td input:hover{
+	background: #fff;
+	border: 1px solid #999;
+}
+
+#btn_finalizar{
+	padding: 10px;
+	margin-left: 309px;
+	background: #fff;
+	border: 1px solid #000;
+	transition: .5s;
+	margin-bottom: 10px;
+}
+
+#btn_finalizar:hover{
+	background: #eee;
+}
+
+#container form p{
+	width: 350px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
